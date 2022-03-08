@@ -1,0 +1,10 @@
+src
+# Desengrase adicional, no se importarán en Docker
+README.md
+Dockerfile
+package-lock.json
+node_modules
+public
+.git
+.cache
+.dockerignore

@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  gatsby:
+    container_name: gatsby-dev
+    build: .
+    volumes:
+      - ./src:/home/gapp/src
+      - ./package.json:/home/gapp/package.json
+    ports:
+      - 8000:8000
+      - 40600:40600
